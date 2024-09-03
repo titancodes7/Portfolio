@@ -824,11 +824,11 @@ textarea {
         display: inline-flex;
         top: 0;
         right: 0;
-        width: 350px;
+        width: 300px;
         border-left: 3px solid #b74b4b;
         border-bottom: 3px solid #b74b4b;
         border-bottom-left-radius: 2rem;
-        padding: 1rem;
+        padding: 0.5rem;
         padding-left: 0px;
         padding-right: 5%;
         background-color: #161616;
@@ -841,7 +841,7 @@ textarea {
 
         nav a {
             display: block;
-            font-size: 1.4rem;
+            font-size: 1.2rem;
             margin: 0.38rem;
         }
 
@@ -858,12 +858,12 @@ textarea {
     }
 
         .about-video video {
-            width: 400px;
+            width: 330px;
             border-radius: 40px;
             border: 5px groove #b74b4b;
             box-shadow: 0 0 25px #b74b4b;
-            margin: 10%;
-            margin-left: 2%;
+            margin-top: 5%;
+            margin-bottom: 5%;            
         }
 
     .about {
@@ -930,7 +930,7 @@ textarea {
     }
 
     .about-img {
-        width: 340px;
+        width: 100px;
         float: left;
         transition: 0.5s linear;
         cursor: pointer;
