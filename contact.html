@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <a href="about.html" class="logo">Ivahn</a>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="experience.html">Experience</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h1>Contact Information</h1>
+        <br>
+        <div class="contact-content">
+            <br>
+            <h3>Ivahn Van Der Merwe</h3>
+            <br>
+            <p>Kempton Park, Gauteng</p>
+            <p>South Africa, 1619</p>
+            <p>Feel free to use my details or complete the form below.</p>
+            <p>Phone: +27 73 360 2298</p>
+            <p>Email: ivdmerwe05126@gmail.com</p>
+            <br>
+            <h1>Contact Form</h1>
+
+            <form class="contact-form" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <button type="submit" class="btn-contact">Submit</button>
+            </form>
+            <br>
+        </div>
+    </section>
+
+    <div class="whatsapp-chat">
+        <a href="https://wa.me/+27733602298" target="_blank">
+            <i class="fa-brands fa-whatsapp" style="color: #b74b4b;"></i>
+        </a>
+    </div>
+
+    <div class="whatsapp-popup" id="whatsappPopup">
+        <div class="whatsapp-header">
+            <span>WhatsApp</span>
+            <button onclick="closeChat()">X</button>
+        </div>
+        <div class="whatsapp-body">
+            <p>Hello<br>Can we help you?</p>
+            <a href="https://wa.me/+27733602298" target="_blank" class="open-chat-button">Open chat</a>
+        </div>
+    </div>
+</body>
+</html>
