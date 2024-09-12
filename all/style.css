@@ -1000,12 +1000,12 @@ textarea {
         }
     
         .contact h3 {
-            font-size: 3rem;
+            font-size: 2.5rem;
             text-align: center;
         }
     
     .contact-content p {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     
     .contact-content {
@@ -1014,8 +1014,6 @@ textarea {
         display: flex;
         flex-direction: column;
         text-align: left;
-        padding-left: 20px;
-        padding-right: 20px;
         background-color: black;
         border: 6px ridge #b74b4b;
         border-radius: 5%;
@@ -1024,7 +1022,7 @@ textarea {
     
     .contact-form {
         width: 100%;
-        font-size: 20px;
+        font-size: 2rem;
         display: flex;
         flex-direction: column;
         margin-right: 20px;
