@@ -859,6 +859,7 @@ textarea {
 
         .about-video video {
             width: 330px;
+            margin-left: 0%;
             border-radius: 40px;
             border: 5px groove #b74b4b;
             box-shadow: 0 0 25px #b74b4b;
@@ -945,7 +946,7 @@ textarea {
             width: 250px;
             justify-content: center;
             align-items: center;
-            margin-left: 10%;
+            margin-left: 0%;
             border: 5px groove #b74b4b;
             box-shadow: 0 0 25px #b74b4b;
             border-radius: 40px;
@@ -1031,7 +1032,7 @@ textarea {
     
     input {
         color: white;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         background-color: #353535;
         border: 5px groove rgb(71, 156, 235);
         border-radius: 20px;
@@ -1039,7 +1040,7 @@ textarea {
     
     textarea {
         color: white;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         background-color: #353535;
         border: 5px groove rgb(71, 156, 235);
         border-radius: 10px;
