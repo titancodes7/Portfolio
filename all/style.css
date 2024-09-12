@@ -986,8 +986,7 @@ textarea {
     }
     .contact {
         margin-top: 50px;
-        margin-left: 10%;
-        width: 80%;
+        width: 70%;
         align-items: center;
         justify-content: center;
         display: flex;
@@ -1021,7 +1020,7 @@ textarea {
     }
     
     .contact-form {
-        width: 100%;
+        width: 90%;
         font-size: 2rem;
         display: flex;
         flex-direction: column;
