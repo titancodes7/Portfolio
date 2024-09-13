@@ -698,54 +698,6 @@ textarea {
             color: black;
         }
 
-
-
-    .whatsapp-chat img {
-        width: 50px;
-        height: 50px;
-        cursor: pointer;
-    }
-
-.whatsapp-popup {
-    position: fixed;
-    bottom: 80px;
-    right: 20px;
-    background-color: #25D366;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    width: 300px;
-    display: none;
-    z-index: 1000;
-}
-
-.whatsapp-header {
-    padding: 10px;
-    background-color: #128C7E;
-    color: white;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.whatsapp-body {
-    padding: 10px;
-    color: white;
-}
-
-.open-chat-button {
-    background-color: #128C7E;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    display: block;
-    margin-top: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-
 @keyframes cursor {
     to {
         border-left: 3px solid #b74b4b;
